@@ -28,120 +28,144 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-</head>
-
-<body class="sub_page about_page">
-  <div class="hero_area">
+  <style>
+    .fa {
+  
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+      font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  }
+  </style>
+  
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  
+  <body class="sub_page about_page">
+    <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <img src="logo.png" alt="" />
-            <span>
-              Prism
-            </span>
-
-          </a>
-          <div class="contact_nav" id="">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/location.png" alt="" />
-                  <span>Location</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/call.png" alt="" />
-                  <span>Call : + 01 1234567890</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">
-                  <img src="images/envelope.png" alt="" />
-                  <span>demo@gmail.com</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div class="container">
-        <div class="custom_nav2">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="d-flex  flex-column flex-lg-row align-items-center">
-                <ul class="navbar-nav  ">
-                  <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Why">Why Prism</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Physio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
-              </div>
+      <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="logo.png" alt="" />
+              <span>
+                Prism	 
+              </span>
+              
+            </a>
+            <div class="contact_nav" id="">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">
+                    <img src="images/location.png" alt="" />
+                    <span>Location</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">
+                    <img src="images/call.png" alt="" />
+                    <span>Call : + 01 1234567890</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">
+                    <img src="images/envelope.png" alt="" />
+                    <span>demo@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
             </div>
           </nav>
         </div>
+  
+      </header>
+      <!-- end header section -->
+      <!-- slider section -->
+      <section class=" slider_section position-relative">
+        <div class="container">
+          <div class="custom_nav2">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex  flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="service.html">Services </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="why_prism.html">Why Prism</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Physio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        </section>
+      <!-- end slider section -->
+    </div>
+  
+  
+    <!-- about section -->
+  
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            About Prism
+          </h2>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="logo.png" width="120" height="120" alt="">
+          </div>
+          <div class="detail-box">
+            <p>
+              PRISM aims at inspiring fitness among individuals through a wide range of fitness programmes. We are the largest fitness group with presence across India and 100+ certified trainers.</br></br>  
+            </p>
+  
+            <div class="content-list">
+                                  
+              <p><font color="#F7931D"><i class="fa fa-check" aria-hidden="true"></i></font>&nbsp;&nbsp; <b>Fitness at the Doorstep</b>: Today, when time is scarce, why waste time, money and energy traveling all the way to gyms? FIONIS is one of the first Indian companies to address the convenience factor by delivering fitness programs right inside communities.</p>
+              <p><font color="#F7931D"><i class="fa fa-check" aria-hidden="true"></i></font>&nbsp;&nbsp; <b>Fitness for Life</b>: We believe in providing continuous motivation to instill fitness for life. Forget annual memberships. Fitness is a lifetime membership!</p>
+              <p><font color="#F7931D"><i class="fa fa-check" aria-hidden="true"></i></font>&nbsp;&nbsp; <b>Fitness for All</b>: Our programs are designed to improve the fitness of people at all levels and capabilities - beginner to advanced.</p>
+              <p><font color="#F7931D"><i class="fa fa-check" aria-hidden="true"></i></font>&nbsp;&nbsp; <b>Fitness &amp; Fun!</b>: At FIONIS, the 'fun' element is scientifically blended into our programs. Workouts need not be a pain anymore - they can be fun!</p>
+              <p><font color="#F7931D"><i class="fa fa-check" aria-hidden="true"></i></font>&nbsp;&nbsp; <b>Fitness Expertise</b>: We invest heavily in trainers and in tapping expertise across functions. Relying on a larger source gives us a wider perspective.</p>
+          </div>
+  
+            <a href="contact.html">
+              Contact Us !
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- end slider section -->
-  </div>
-
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          About Prism
-        </h2>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="logo.png" alt="Logo" width="120px" height="120px">
-        </div>
-        <div class="detail-box">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis
-          </p>
-          <a href="contact.html">
-            Connect with us
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end about section -->
-
+    <!-- end about section -->
+  
   <!-- info section -->
 
   <section class="info_section layout_padding2-top">
