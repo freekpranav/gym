@@ -250,7 +250,6 @@ a:focus {
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
     background-image: url(../images/menu.png);
-    background-size: 42px;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -262,19 +261,13 @@ a:focus {
 /* slider section */
 
 .slider_section {
-    height: calc(100% - 80px);
-    background-image: url(../images/slider-bg.jpg);
     background-size: cover;
 
     .slider_container {
-        height: calc(100% - 60px);
         display: flex;
         align-items: center;
     }
 
-    #carouselExampleIndicators {
-        width: 100%;
-    }
 
     .detail-box {
         h2 {
