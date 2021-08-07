@@ -99,9 +99,7 @@
     width: 100%;
 
 }
-element {
 
-}
 .vc_column_container > .vc_column-inner {
 
     box-sizing: border-box;
@@ -238,12 +236,8 @@ element {
 
 }
 
-
-element {
-
-}
 .service-sec-one .icon i {
-
+    
     color: #fff;
     font-size: 48px;
     text-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
@@ -254,7 +248,7 @@ element {
 [class^="icon-"], [class*=" icon-"] {
 
     font-family: 'medical-guide-icons';
-    speak: none;
+    
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -292,7 +286,7 @@ img.emoji {
 			
 			.service-sec-one .icon {
 
-    background: #fff;
+    background: #3c0e78;
 
 }
 .service-sec-one .icon {
@@ -322,6 +316,6 @@ img.emoji {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: ;
+    
 
 }
