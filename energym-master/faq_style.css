@@ -37,7 +37,7 @@ html {
     flex-direction: column;
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
-    color: #7288a2;
+    color: #FFF;
     font-size: 1.15rem;
     font-weight: 400;
     border-bottom: 1px solid #e5e5e5;
@@ -46,7 +46,7 @@ html {
 .accordion a:hover,
 .accordion a:hover::after {
     cursor: pointer;
-    color: #ff5353;
+    color: #FFF;
 }
 
 .accordion a:hover::after {
@@ -79,7 +79,7 @@ html {
 .accordion a.active::after {
     font-family: 'Ionicons';
     content: '\f209';
-    color: #ff5353;
+    color: #FFF;
     border: 1px solid #ff5353;
 }
 
@@ -107,4 +107,8 @@ html {
     -webkit-transition: all 0.35s ease 0.15s;
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
+}
+.title_item:hover{
+    background-color: #3c0e78;
+    color: green;
 }
